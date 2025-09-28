@@ -8,7 +8,7 @@ def round_robin(processos, burst_time, quantum):
     burst_time  -> lista com o tempo de execução de cada processo
     quantum     -> fatia de tempo atribuída a cada processo
     
-    Retorna: tempo de espera médio e tempo de retorno médio
+    Retorna: tempo de espera médio e tempo de retorno médioG
     """
     
     n = len(processos)
